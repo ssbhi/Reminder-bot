@@ -25,7 +25,7 @@ Write-Host "      Done -> $installFolder" -ForegroundColor Green
 Write-Host "[2/4] Downloading ReminderBot..." -ForegroundColor Yellow
 try {
     Invoke-WebRequest `
-        -Uri "https://raw.githubusercontent.com/shobhit.soni.ap/reminderbot/main/ReminderBot.ps1" `
+        -Uri "https://raw.githubusercontent.com/ssbhi/reminderbot/main/ReminderBot.ps1" `
         -OutFile $scriptPath
     Write-Host "      Done -> ReminderBot.ps1 downloaded" -ForegroundColor Green
 } catch {
